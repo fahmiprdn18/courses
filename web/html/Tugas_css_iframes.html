@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <!--External CSS-->
+    <!--<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">-->
+    <!--<link rel="stylesheet" href="/html/styles.css">-->
+    <!--<link rel="stylesheet" href="styles.css">-->
+    <!--External References-->
+   <!-- <style>
+        body {background-color: powderblue;}
+        h1 {color:royalblue}
+        p {color:seagreen}
+    </style>--> <!--Internal CSS-->
+    <div style="background-image: url('girl.jpg');"></div>
+</head>
+
+<body>
+    <h1>test heading using internal css</h1>
+    <p>test paragraph using internal css</p>
+    <h2 style="color:blue;">Inline CSS</h2>
+    <p id="p01"> Id Attribute test</p>
+    <p class="error">Class Attribute test</p>
+    <a href="https://www.w3schools.com/html/">HTML Links-Syntax</a>
+    <br>
+    <a href="html_links.asp">Local Links</a>
+    <br>
+    <a href="https://www.w3schools.com/" target="_blank">target attribute</a>
+    <br>
+    <a href="https://www.w3schools.com/html/" target="_top">target_top</a>
+    <br>
+    <a href="default.asp">
+    <img src="img/SmallFullColourGIF.gif" alt="lalala" style="width:42px;height:42px;border:0;"></a>
+    <br>
+    <button onclick="document.location = 'default.asp'">Button as a link</button>
+    <br>
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+    <br>
+    <a href="default.asp">Blank Page</a>
+    <br>
+    <h2 id="C4">Chapter4</h2>
+    <a href="#C4">Jump to Chapter 4</a>
+    <br>
+    <a href="html_demo.html#C4">Jump to Chapter 4</a>
+    <br>
+    <img src="img/trejo.jpeg" alt="dantrejo" style="width:500px;height:600px;">
+    <br>
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+    <br>
+    <p><img src="img/SmallFullColourGIF.gif" alt="fullcolour" style="float:right;width:42px;height:42px;">The image will float to the right of the text.</p>
+    <p><img src="img/SmallFullColourGIF.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+        The image will float to the left of the text.</p>
+
+        <img src="img/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+        <map name="workmap">
+          <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+          <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+          <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+        </map>
+
+        <img src="img/workplace.jpg" alt="Workplace" usemap="#workmap">
+        <map name="workmap"></map>
+        <area shape="rect" coords="34, 44, 270, 350" href="computer.htm">
+        <area shape="circle" coords="337, 300, 44" href="coffee.htm">
+        <area shape="circle" coords="337,300,44" onclick="myFunction()">
+
+        <picture>
+            <source media="(min-width: 650px)" srcset="girl.jpg">
+            <source media="(min-width: 465px)" srcset="girl.jpg">
+            <img src="img/girl.jpg">
+          </picture>
+
+          <table style="width:100%">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+          </table>
+          <br>
+          <table style="width:100%">
+            <caption>Adding A Caption</caption>
+            <tr>
+              <th>Name</th>
+              <th colspan="2">Telephone</th>
+              <th rowspan="2">Telephone</th>
+            </tr>
+            <tr>
+              <td>Bill Gates</td>
+              <td>55577854</td>
+              <td>55577855</td>
+            </tr>
+          </table>
+          <br>
+          <table id="t01">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+          </table>
+          <br>
+          <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+          <br>
+          <ul style="list-style-type:disc;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+          <br>
+          <ul style="list-style-type:circle;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+          <br>
+          <ul style="list-style-type:square;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+          <br>
+          <ul style="list-style-type:none;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+          <br>
+          <ul>
+            <li>Coffee</li>
+            <li>Tea
+              <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+              </ul>
+            </li>
+            <li>Milk</li>
+          </ul>
+          <br>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+          <br>
+          <ol type="1">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+          <br>
+          <ol type="A">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+          <br>
+          <ol type="a">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+          <br>
+          <ol type="I">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+          <br>
+          <ol type="i">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+          <br>
+          <ol start="50">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+          <br>
+          <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+          </dl>
+          <div>Hello World</div>
+          <span>Hello World</span>
+          <div style="background-color:black;color:white;padding:20px;">
+            <h2>London</h2>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          </div>
+          <h1>My <span style="color:red">Important</span> Heading</h1>
+          <br>
+          <div class="cities">
+            <h2>London</h2>
+            <p>London is the capital of England.</p>
+          </div>
+          
+          <div class="cities">
+            <h2>Paris</h2>
+            <p>Paris is the capital of France.</p>
+          </div>
+          
+          <div class="cities">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+          <h1>My <span class="note">Important</span> Heading</h1>
+          <p>This is some <span class="note">important</span> text.</p>
+          <br>
+          <h2 class="city">London</h2>
+            <p>London is the capital of England.</p>
+
+            <h2 class="city">Paris</h2>
+            <p>Paris is the capital of France.</p>
+
+            <h2 class="city">Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+            <h2 class="city main">London</h2>
+            <h2 class="city">Paris</h2>
+            <h2 class="city">Tokyo</h2>
+            <h2 class="city">Paris</h2>
+            <p class="city">Paris is the capital of France</p>
+            <br>
+            <!--<script>
+                function myFunction() {
+                  var x = document.getElementsByClassName("city");
+                  for (var i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                  }
+                }
+                </script>-->
+                <h1 id="myHeader">My Header</h1>
+                <br>
+                <!-- A unique element -->
+                <h1 id="myHeader">My Cities</h1>
+
+                <!-- Multiple similar elements -->
+                <h2 class="city">London</h2>
+                <p>London is the capital of England.</p>
+
+                <h2 class="city">Paris</h2>
+                <p>Paris is the capital of France.</p>
+
+                <h2 class="city">Tokyo</h2>
+                <p>Tokyo is the capital of Japan.</p>
+                <br>
+                <h2 id="C4">Chapter 4</h2>
+                <a href="#C4">Jump to Chapter 4</a>
+                <a href="html_demo.html#C4">Jump to Chapter 4</a>
+                <!--<script>
+                function displayResult() {
+                document.getElementById("myHeader").innerHTML = "Have a nice day!";
+                }
+                </script>-->
+                <br>
+                <iframe src="https://www.w3schools.com/" height="200" width="300"></iframe>
+                <br>
+                <iframe src="iframe.htm" height="200" width="300"></iframe>
+                <br>
+                <iframe src="iframe.htm" style="height:200px;width:300px;"></iframe>
+                <br>
+                <iframe src="iframe.htm" style="border:none;"></iframe>
+                <br>
+                <iframe src="iframe.htm" style="border:2px solid red;"></iframe>
+                <br>
+                <iframe src="iframe.htm" name="iframe_a"></iframe>
+                <br>
+                <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+                <br>
+                <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+                <br>
+                <img src="img/picture.jpg" alt="Mountain">
+                <br>
+                <img src="img/picture.jpg" alt="Mountain">
+
+
+
+
+</body>
+
+</html>
