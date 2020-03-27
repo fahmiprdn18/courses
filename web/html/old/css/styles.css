@@ -55,10 +55,10 @@
             width: 100%;
         }
         div {
-            background-image: url('img/girl.jpg');
+            background-image: url('html/img/girl.jpg');
         }
         body {
-            background-image: url('img/girl.jpg');
+            background-image: url('html/img/girl.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
