@@ -1,0 +1,1 @@
+<img src="img/giphy.gif" alt="Images as a link" style="width:42px;height:42px;border:0;">
